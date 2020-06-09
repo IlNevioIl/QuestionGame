@@ -23,13 +23,7 @@ public class Gui extends JFrame{
         Var.jf1.requestFocus();
         Var.jf1.getContentPane().setBackground( Color.black);
 
-        //The Question
-
-        //Var.jl1 = new JLabel("Are you ready?");
-        //Var.jl1.setBounds(Var.x3, Var.y2, Var.width2, Var.height2);
-        //Var.jl1.setFont(new Font("Arial", Font.PLAIN,Var.size));
-        //Var.jl1.setForeground( Color.white);
-
+        //Adding all the Labels and Buttons to Frame:
 
         Var.jf1.add(Var.jb1);
         Var.jf1.add(Var.jb2);

@@ -12,4 +12,5 @@ public class nobutton extends JButton {
         this.setForeground( Color.white);
         this.setBackground( Color.black);
     }
+
 }
