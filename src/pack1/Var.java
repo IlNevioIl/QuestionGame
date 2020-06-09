@@ -8,7 +8,7 @@ public class Var {
     static  int screenwidth = 400, screenheight = 300;
 
     static int x = 50, y = 200, width = 95, height = 30;
-    public static JButton jb1 = new nobutton();
+    public static JButton jb1 = new yesbutton();
 
     static int x2 = 250;
     public static JButton jb2 = new nobutton();

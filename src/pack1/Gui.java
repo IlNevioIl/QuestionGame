@@ -31,7 +31,7 @@ public class Gui extends JFrame{
         Var.jl1.setForeground( Color.white);
         Var.jf1.add(Var.jl1);
 
-
+        Var.jf1.add(Var.jb1);
         Var.jf1.add(Var.jb2);
     }
 
