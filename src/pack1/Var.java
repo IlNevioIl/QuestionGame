@@ -14,8 +14,9 @@ public class Var {
     public static JButton jb2 = new nobutton();
 
 
-    static JLabel jl1;
+
     static int x3 = 65, y2 = 0, width2 = 300, height2 = 200, size = 40;
+    public static JLabel jl1 = new label();
 
     public  Var() {
 

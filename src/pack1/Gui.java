@@ -25,14 +25,15 @@ public class Gui extends JFrame{
 
         //The Question
 
-        Var.jl1 = new JLabel("Are you ready?");
-        Var.jl1.setBounds(Var.x3, Var.y2, Var.width2, Var.height2);
-        Var.jl1.setFont(new Font("Arial", Font.PLAIN,Var.size));
-        Var.jl1.setForeground( Color.white);
-        Var.jf1.add(Var.jl1);
+        //Var.jl1 = new JLabel("Are you ready?");
+        //Var.jl1.setBounds(Var.x3, Var.y2, Var.width2, Var.height2);
+        //Var.jl1.setFont(new Font("Arial", Font.PLAIN,Var.size));
+        //Var.jl1.setForeground( Color.white);
+
 
         Var.jf1.add(Var.jb1);
         Var.jf1.add(Var.jb2);
+        Var.jf1.add(Var.jl1);
     }
 
 
