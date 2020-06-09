@@ -1,4 +1,6 @@
-package pack1;
+package question;
+
+import pack1.Var;
 
 import javax.swing.*;
 import java.awt.*;
@@ -22,6 +24,5 @@ public class yesbutton extends JButton {
 
 
 }
-
 
 

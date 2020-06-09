@@ -11,6 +11,12 @@ public class nobutton extends JButton {
         this.setBounds(Var.x2, Var.y, Var.width, Var.height);
         this.setForeground( Color.white);
         this.setBackground( Color.black);
+        this.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.exit( 0 );
+            }
+        });
     }
 
 }
