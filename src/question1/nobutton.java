@@ -1,4 +1,4 @@
-package question;
+package question1;
 
 import pack1.Var;
 

@@ -12,8 +12,9 @@ public class Main {
         new nobutton();
         new firstlabel();
 
-
-
+        new question1.question();
+        new question1.nobutton();
+        new question1.yesbutton();
         }
 
 
