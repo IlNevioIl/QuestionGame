@@ -31,20 +31,7 @@ public class Gui extends JFrame{
         Var.jl1.setForeground( Color.white);
         Var.jf1.add(Var.jl1);
 
-        //Yes Button
 
-        Var.jb1 = new JButton("Yes");
-        Var.jb1.setBounds(Var.x, Var.y, Var.width, Var.height);
-        Var.jb1.setForeground( Color.white);
-        Var.jb1.setBackground( Color.black);
-        Var.jf1.add(Var.jb1);
-
-        //No Button
-
-        Var.jb2 = new JButton("No");
-        Var.jb2.setBounds(Var.x2, Var.y, Var.width, Var.height);
-        Var.jb2.setForeground( Color.white);
-        Var.jb2.setBackground( Color.black);
         Var.jf1.add(Var.jb2);
     }
 
