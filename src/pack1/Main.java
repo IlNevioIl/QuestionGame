@@ -10,7 +10,7 @@ public class Main {
         new Var();
         new yesbutton();
         new nobutton();
-        new label();
+        new firstlabel();
 
         }
 

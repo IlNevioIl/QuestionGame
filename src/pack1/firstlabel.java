@@ -5,14 +5,12 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class label extends JLabel {
-    public label() {
-        super("Yes");
+public class firstlabel extends JLabel {
+    public firstlabel() {
+        this.setText("Are you ready?");
         this.setBounds(Var.x3, Var.y2, Var.width2, Var.height2);
-        this.setFont(new Font("Arial", Font.PLAIN,Var.size));
         this.setForeground( Color.white);
-
-        Var.jf1.add(Var.jl1);
+        this.setFont(new Font("Arial", Font.PLAIN,Var.size));
     }
 
 

@@ -16,7 +16,7 @@ public class Var {
 
 
     static int x3 = 65, y2 = 0, width2 = 300, height2 = 200, size = 40;
-    public static JLabel jl1 = new label();
+    public static JLabel jl1 = new firstlabel();
 
     public  Var() {
 
