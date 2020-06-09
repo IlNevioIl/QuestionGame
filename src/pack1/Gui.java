@@ -46,20 +46,13 @@ public class Gui extends JFrame{
         Var.jb2.setForeground( Color.white);
         Var.jb2.setBackground( Color.black);
         Var.jf1.add(Var.jb2);
-
-        Var.jb2.addActionListener(new Action());
-
-
     }
 
-    static class Action implements ActionListener{
 
-        public void actionPerformed (ActionEvent e) {
-            if (Var.jb2.isSelected())
 
-                System.exit( 0 );
+            }
 
-        }
-    }
 
-}
+
+
+
