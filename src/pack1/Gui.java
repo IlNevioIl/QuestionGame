@@ -25,8 +25,8 @@ public class Gui extends JFrame{
 
         //Adding all the Labels and Buttons to Frame:
 
-        Var.jf1.add(Var.jb1);
-        Var.jf1.add(Var.jb2);
+        Var.jf1.add(yesbutton);
+        Var.jf1.add(nobutton);
         Var.jf1.add(Var.jl1);
     }
 

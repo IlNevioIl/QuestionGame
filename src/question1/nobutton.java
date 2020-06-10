@@ -10,7 +10,7 @@ import java.awt.event.ActionListener;
 public class nobutton extends JButton {
     public nobutton() {
         super("No");
-        this.setBounds(Var.x2, Var.y, Var.width, Var.height);
+        this.setBounds(250,200,95,30);
         this.setForeground( Color.white);
         this.setBackground( Color.black);
         this.addActionListener(new ActionListener() {
