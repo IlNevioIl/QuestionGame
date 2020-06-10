@@ -1,4 +1,4 @@
-package question3;
+package question4;
 
 import pack1.Var;
 
@@ -7,21 +7,18 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class continuebutton3 extends JButton {
-    public continuebutton3() {
+public class yesbutton4 extends JButton {
+    public yesbutton4() {
 
-        super("Continue");
+        super("Yes");
         this.setVisible(false);
-        this.setBounds(Var.x5, Var.y3, Var.width3, Var.height3);
+        this.setBounds(Var.x3, Var.y3, Var.width3, Var.height3);
         this.setForeground( Color.white);
         this.setBackground( Color.black);
         this.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Var.jl4.setVisible(false);
-                Var.jb9.setVisible(false);
-                Var.jl6.setVisible(true);
-                Var.jb10.setVisible(true);
+
             }
         });
     }
