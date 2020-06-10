@@ -7,7 +7,7 @@ import javax.swing.*;
 public class Var {
 
 
-    public static int x3;
+    //public static int x3;
     static JFrame jf1;
     static  int screenwidth = 400, screenheight = 300;
 
