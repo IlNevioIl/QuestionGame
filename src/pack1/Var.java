@@ -5,6 +5,7 @@ package pack1;
 import question1.continuebutton1;
 import question1.labelquestion1;
 import question2.*;
+import question3.labelquestion3;
 
 import javax.swing.*;
 
@@ -23,8 +24,10 @@ public class Var {
     public static JLabel jl1 = new firstlabel();
 
     //Label Cords Question
+    public static int width4 = 600;
     public static JLabel jl2 = new labelquestion1();
     public static JLabel jl3 = new labelquestion2();
+    public static JLabel jl5 = new labelquestion3();
 
     //Label Cords Right Answer
     public static JLabel jl4 = new rightanswerlabel2();

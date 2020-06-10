@@ -20,6 +20,7 @@ public class continuebutton2 extends JButton {
             public void actionPerformed(ActionEvent e) {
                 Var.jl4.setVisible(false);
                 Var.jb6.setVisible(false);
+                Var.jl5.setVisible(true);
             }
         });
     }
