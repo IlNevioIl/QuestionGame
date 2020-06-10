@@ -11,14 +11,14 @@ public class Var {
     static JFrame jf1;
     static  int screenwidth = 400, screenheight = 300;
 
-    
+
 
 
 
     public static int x4 = 65, y2 = 0, width2 = 300, height2 = 200, size = 40;
     public static JLabel jl1 = new firstlabel();
 
-   public static JButton jb1 = new yesbutton();
+   public static JButton jb1 = new yesbutton1();
    public static JButton jb2 = new nobutton();
    public static JButton jb3 = new question1.yesbutton();
    public static JButton jb4 = new question1.nobutton();

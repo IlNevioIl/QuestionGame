@@ -7,6 +7,8 @@ import java.awt.event.ActionListener;
 
 public class Gui extends JFrame{
     JLabel areyouready;
+    JButton yesbutton1;
+    JButton nobutton;
 
     public Gui () {
 
@@ -25,7 +27,7 @@ public class Gui extends JFrame{
 
         //Adding all the Labels and Buttons to Frame:
 
-        Var.jf1.add(yesbutton);
+        Var.jf1.add(yesbutton1);
         Var.jf1.add(nobutton);
         Var.jf1.add(Var.jl1);
     }
@@ -33,8 +35,3 @@ public class Gui extends JFrame{
 
 
             }
-
-
-
-
-
