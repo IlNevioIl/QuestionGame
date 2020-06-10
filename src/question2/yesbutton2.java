@@ -22,6 +22,7 @@ public class yesbutton2 extends JButton {
                 Var.jb4.setVisible(false);
                 Var.jb5.setVisible(false);
                 Var.jb6.setVisible(true);
+                Var.jl4.setVisible(true);
             }
         });
     }

@@ -4,10 +4,7 @@ package pack1;
 
 import question1.continuebutton1;
 import question1.labelquestion1;
-import question2.continuebutton2;
-import question2.labelquestion2;
-import question2.nobutton2;
-import question2.yesbutton2;
+import question2.*;
 
 import javax.swing.*;
 
@@ -24,8 +21,13 @@ public class Var {
     //Label Cords
     public static int x2 = 65, y2 = 0, width2 = 300, height2 = 200, size = 40;
     public static JLabel jl1 = new firstlabel();
+
+    //Label Cords Question
     public static JLabel jl2 = new labelquestion1();
     public static JLabel jl3 = new labelquestion2();
+
+    //Label Cords Right Answer
+    public static JLabel jl4 = new rightanswerlabel2();
 
     //Yes Button Cords
     public static int x3 = 50, y3 = 200, width3 = 95, height3 = 30;

@@ -39,8 +39,13 @@ public class Gui extends JFrame{
 
         //Adding all the Labels to the Frame:
         Var.jf1.add(Var.jl1);
+
+        //Adding all the Question Labels to the Frame:
         Var.jf1.add(Var.jl2);
         Var.jf1.add(Var.jl3);
+
+        //Adding all the Right Answer Labels to the Frame:
+        Var.jf1.add(Var.jl4);
         ;
     }
 
