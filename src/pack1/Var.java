@@ -25,9 +25,11 @@ public class Var {
     public static int x3 = 50, y3 = 200, width3 = 95, height3 = 30;
     public static JButton jb1 = new yesbutton();
 
-    public static JButton jb3 = new continuebutton1();
-
+    public static int x4 = 250;
     public static JButton jb2 = new nobutton();
+
+    public static int x5 = 125;
+    public static JButton jb3 = new continuebutton1();
     public  Var() {
 
 
