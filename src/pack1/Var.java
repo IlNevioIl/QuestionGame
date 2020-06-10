@@ -33,6 +33,7 @@ public class Var {
     //Continue Button Cords
     public static int x5 = 125;
     public static JButton jb3 = new continuebutton1();
+
     public  Var() {
 
 

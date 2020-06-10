@@ -19,6 +19,7 @@ class yesbutton extends JButton {
                 Var.jl1.setVisible(false);
                 Var.jb1.setVisible(false);
                 Var.jb2.setVisible(false);
+                Var.jb3.setVisible(true);
             }
         });
     }

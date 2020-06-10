@@ -11,7 +11,8 @@ public class continuebutton1 extends JButton {
     public continuebutton1() {
 
         super("Continue");
-        this.setBounds(50,200,95,30);
+        this.setVisible(false);
+        this.setBounds(Var.x5, Var.y3, Var.width3, Var.height3);
         this.setForeground( Color.white);
         this.setBackground( Color.black);
         this.addActionListener(new ActionListener() {
