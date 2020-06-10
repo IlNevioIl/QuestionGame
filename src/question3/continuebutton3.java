@@ -18,7 +18,8 @@ public class continuebutton3 extends JButton {
         this.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                Var.jl4.setVisible(false);
+                Var.jb9.setVisible(false);
             }
         });
     }
