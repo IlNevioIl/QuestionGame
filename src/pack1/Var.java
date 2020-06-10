@@ -14,6 +14,7 @@ import question4.labelquestion4;
 import question4.nobutton4;
 import question4.yesbutton4;
 import question5.labelquestion5;
+import question5.nobutton5;
 import question5.yesbutton5;
 
 import javax.swing.*;
@@ -57,6 +58,7 @@ public class Var {
     public static JButton jb5 = new nobutton2();
     public static JButton jb8 = new nobutton3();
     public static JButton jb11 = new nobutton4();
+    public static JButton jb14 = new nobutton5();
 
     //Continue Button Cords
     public static int x5 = 150;
