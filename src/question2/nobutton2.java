@@ -12,7 +12,7 @@ public class nobutton2 extends JButton {
 
         super("No");
         this.setVisible(false);
-        this.setBounds(Var.x3, Var.y3, Var.width3, Var.height3);
+        this.setBounds(Var.x4, Var.y3, Var.width3, Var.height3);
         this.setForeground( Color.white);
         this.setBackground( Color.black);
         this.addActionListener(new ActionListener() {
