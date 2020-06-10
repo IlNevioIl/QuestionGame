@@ -5,8 +5,8 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-class yesbutton1 extends JButton {
-    public yesbutton1() {
+class yesbutton extends JButton {
+    public yesbutton() {
 
         super("Yes");
         this.setBounds(50,200,95,30);

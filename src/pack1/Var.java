@@ -15,17 +15,12 @@ public class Var {
 
 
 
-    public static int x4 = 65, y2 = 0, width2 = 300, height2 = 200, size = 40;
+    public static int x2 = 65, y2 = 0, width2 = 300, height2 = 200, size = 40;
     public static JLabel jl1 = new firstlabel();
 
-   public static JButton jb1 = new yesbutton1();
-   public static JButton jb2 = new nobutton();
+    public static JButton jb1 = new yesbutton();
 
-
-
-
-
-
+    public static JButton jb2 = new nobutton();
     public  Var() {
 
 

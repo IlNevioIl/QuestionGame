@@ -8,7 +8,7 @@ public class Main {
 
         new Gui();
         new Var();
-        new yesbutton1();
+        new yesbutton();
         new nobutton();
         new firstlabel();
 
