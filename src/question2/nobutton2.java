@@ -18,6 +18,7 @@ public class nobutton2 extends JButton {
         this.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                System.exit( 0 );
 
             }
         });

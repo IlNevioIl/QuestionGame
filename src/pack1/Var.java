@@ -4,6 +4,7 @@ package pack1;
 
 import question1.continuebutton1;
 import question1.labelquestion1;
+import question2.continuebutton2;
 import question2.labelquestion2;
 import question2.nobutton2;
 import question2.yesbutton2;
@@ -39,6 +40,7 @@ public class Var {
     //Continue Button Cords
     public static int x5 = 125;
     public static JButton jb3 = new continuebutton1();
+    public static JButton jb6 = new continuebutton2();
 
     public  Var() {
 
