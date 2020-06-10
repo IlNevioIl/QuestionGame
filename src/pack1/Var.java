@@ -11,8 +11,8 @@ public class Var {
     static JFrame jf1;
     static  int screenwidth = 400, screenheight = 300;
 
-    public static int x2 = 250;
-    public static JButton jb3 = new nobutton();
+    
+
 
 
     public static int x4 = 65, y2 = 0, width2 = 300, height2 = 200, size = 40;
