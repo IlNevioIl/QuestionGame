@@ -17,17 +17,20 @@ public class Var {
 
 
 
-
+    //Label Cords
     public static int x2 = 65, y2 = 0, width2 = 300, height2 = 200, size = 40;
     public static JLabel jl1 = new firstlabel();
     public static JLabel jl2 = new labelquestion1();
 
+    //Yes Button Cords
     public static int x3 = 50, y3 = 200, width3 = 95, height3 = 30;
     public static JButton jb1 = new yesbutton();
 
+    //No Button Cords
     public static int x4 = 250;
     public static JButton jb2 = new nobutton();
 
+    //Continue Button Cords
     public static int x5 = 125;
     public static JButton jb3 = new continuebutton1();
     public  Var() {
