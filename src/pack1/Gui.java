@@ -43,6 +43,7 @@ public class Gui extends JFrame{
         Var.jf1.add(Var.jb6);
         Var.jf1.add(Var.jb9);
         Var.jf1.add(Var.jb12);
+        Var.jf1.add(Var.jb15);
 
 
         //Adding all the Labels to the Frame:
@@ -55,8 +56,9 @@ public class Gui extends JFrame{
         Var.jf1.add(Var.jl6);
         Var.jf1.add(Var.jl7);
 
-        //Adding all the Right Answer Labels to the Frame:
+        //Adding all the Right/Wrong/Credits Answers Labels to the Frame:
         Var.jf1.add(Var.jl4);
+        Var.jf1.add(Var.jl8);
         ;
     }
 

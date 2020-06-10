@@ -2,6 +2,8 @@ package pack1;
 
 
 
+import credits.continuebuttoncredits;
+import credits.labelcredits;
 import question1.continuebutton1;
 import question1.labelquestion1;
 import question2.*;
@@ -16,6 +18,7 @@ import question4.yesbutton4;
 import question5.labelquestion5;
 import question5.nobutton5;
 import question5.yesbutton5;
+import sun.plugin.PluginURLJarFileCallBack;
 
 import javax.swing.*;
 
@@ -41,8 +44,9 @@ public class Var {
     public static JLabel jl6 = new labelquestion4();
     public static JLabel jl7 = new labelquestion5();
 
-    //Label Cords Right Answer
+    //Label Cords Right/Wrong/Credits Answer:
     public static JLabel jl4 = new rightanswerlabel2();
+    public static JLabel jl8 = new labelcredits();
 
     //Yes Button Cords
     public static int x3 = 50, y3 = 200, width3 = 95, height3 = 30;
@@ -66,6 +70,7 @@ public class Var {
     public static JButton jb6 = new continuebutton2();
     public static JButton jb9 = new continuebutton3();
     public static JButton jb12 = new continuebutton4();
+    public static JButton jb15 = new continuebuttoncredits();
 
     public  Var() {
 
