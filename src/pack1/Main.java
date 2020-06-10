@@ -12,7 +12,6 @@ public class Main {
         new nobutton();
         new firstlabel();
 
-
         }
 
 
