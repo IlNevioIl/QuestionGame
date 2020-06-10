@@ -29,6 +29,7 @@ public class Gui extends JFrame{
         Var.jf1.add(Var.jb4);
         Var.jf1.add(Var.jb7);
         Var.jf1.add(Var.jb10);
+        Var.jf1.add(Var.jb13);
 
         //Adding all the No Buttons to Frame:
         Var.jf1.add(Var.jb2);
@@ -51,6 +52,7 @@ public class Gui extends JFrame{
         Var.jf1.add(Var.jl3);
         Var.jf1.add(Var.jl5);
         Var.jf1.add(Var.jl6);
+        Var.jf1.add(Var.jl7);
 
         //Adding all the Right Answer Labels to the Frame:
         Var.jf1.add(Var.jl4);

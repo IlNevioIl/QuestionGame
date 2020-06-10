@@ -13,6 +13,8 @@ import question4.continuebutton4;
 import question4.labelquestion4;
 import question4.nobutton4;
 import question4.yesbutton4;
+import question5.labelquestion5;
+import question5.yesbutton5;
 
 import javax.swing.*;
 
@@ -36,6 +38,7 @@ public class Var {
     public static JLabel jl3 = new labelquestion2();
     public static JLabel jl5 = new labelquestion3();
     public static JLabel jl6 = new labelquestion4();
+    public static JLabel jl7 = new labelquestion5();
 
     //Label Cords Right Answer
     public static JLabel jl4 = new rightanswerlabel2();
@@ -46,6 +49,7 @@ public class Var {
     public static JButton jb4 = new yesbutton2();
     public static JButton jb7 = new yesbutton3();
     public static JButton jb10 = new yesbutton4();
+    public static JButton jb13 = new yesbutton5();
 
     //No Button Cords
     public static int x4 = 250;
