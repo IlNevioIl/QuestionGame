@@ -2,6 +2,8 @@ package pack1;
 
 
 
+import question1.labelquestion1;
+
 import javax.swing.*;
 
 public class Var {
@@ -17,6 +19,7 @@ public class Var {
 
     public static int x2 = 65, y2 = 0, width2 = 300, height2 = 200, size = 40;
     public static JLabel jl1 = new firstlabel();
+    public static JLabel jl2 = new labelquestion1();
 
     public static JButton jb1 = new yesbutton();
 

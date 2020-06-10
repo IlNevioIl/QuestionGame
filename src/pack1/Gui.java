@@ -30,6 +30,7 @@ public class Gui extends JFrame{
 
         //Adding all the Labels to the Frame:
         Var.jf1.add(Var.jl1);
+        Var.jf1.add(Var.jl2);
     }
 
 

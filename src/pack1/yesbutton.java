@@ -16,6 +16,7 @@ class yesbutton extends JButton {
             @Override
             public void actionPerformed(ActionEvent e) {
 
+
             }
         });
     }
