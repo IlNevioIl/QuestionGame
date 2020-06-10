@@ -10,7 +10,7 @@ import java.awt.event.ActionListener;
 public class continuebutton1 extends JButton {
     public continuebutton1() {
 
-        super("Goto Question 1");
+        super("Continue");
         this.setBounds(50,200,95,30);
         this.setForeground( Color.white);
         this.setBackground( Color.black);
