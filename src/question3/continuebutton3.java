@@ -22,6 +22,7 @@ public class continuebutton3 extends JButton {
                 Var.jb9.setVisible(false);
                 Var.jl6.setVisible(true);
                 Var.jb10.setVisible(true);
+                Var.jb11.setVisible(true);
             }
         });
     }

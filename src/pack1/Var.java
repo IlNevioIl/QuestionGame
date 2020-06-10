@@ -9,7 +9,9 @@ import question3.continuebutton3;
 import question3.labelquestion3;
 import question3.nobutton3;
 import question3.yesbutton3;
+import question4.continuebutton4;
 import question4.labelquestion4;
+import question4.nobutton4;
 import question4.yesbutton4;
 
 import javax.swing.*;
@@ -50,12 +52,14 @@ public class Var {
     public static JButton jb2 = new nobutton();
     public static JButton jb5 = new nobutton2();
     public static JButton jb8 = new nobutton3();
+    public static JButton jb11 = new nobutton4();
 
     //Continue Button Cords
-    public static int x5 = 125;
+    public static int x5 = 150;
     public static JButton jb3 = new continuebutton1();
     public static JButton jb6 = new continuebutton2();
     public static JButton jb9 = new continuebutton3();
+    public static JButton jb12 = new continuebutton4();
 
     public  Var() {
 
