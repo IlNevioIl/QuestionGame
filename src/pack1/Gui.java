@@ -7,8 +7,6 @@ import java.awt.event.ActionListener;
 
 public class Gui extends JFrame{
     JLabel areyouready;
-    JButton yesbutton1;
-    JButton nobutton;
 
     public Gui () {
 

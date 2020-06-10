@@ -1,6 +1,6 @@
 package pack1;
 
-import question1.question;
+
 
 import javax.swing.*;
 
@@ -20,8 +20,7 @@ public class Var {
 
    public static JButton jb1 = new yesbutton1();
    public static JButton jb2 = new nobutton();
-   public static JButton jb3 = new question1.yesbutton();
-   public static JButton jb4 = new question1.nobutton();
+
 
 
 
