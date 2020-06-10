@@ -22,6 +22,7 @@ public class Var {
     public static JLabel jl1 = new firstlabel();
     public static JLabel jl2 = new labelquestion1();
 
+    public static int x3 = 50, y3 = 200, width3 = 95, height3 = 30;
     public static JButton jb1 = new yesbutton();
 
     public static JButton jb3 = new continuebutton1();

@@ -9,7 +9,7 @@ class yesbutton extends JButton {
     public yesbutton() {
 
         super("Yes");
-        this.setBounds(50,200,95,30);
+        this.setBounds(Var.x3, Var.y3, Var.width3, Var.height3);
         this.setForeground( Color.white);
         this.setBackground( Color.black);
         this.addActionListener(new ActionListener() {
