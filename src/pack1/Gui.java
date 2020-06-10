@@ -24,12 +24,17 @@ public class Gui extends JFrame{
         Var.jf1.requestFocus();
         Var.jf1.getContentPane().setBackground( Color.black);
 
-        //Adding all the Buttons to Frame:
+        //Adding all the Yes Buttons to Frame:
         Var.jf1.add(Var.jb1);
-        Var.jf1.add(Var.jb2);
-        Var.jf1.add(Var.jb3);
         Var.jf1.add(Var.jb4);
+
+        //Adding all the No Buttons to Frame:
+        Var.jf1.add(Var.jb2);
         Var.jf1.add(Var.jb5);
+
+        //Adding all the Continue Buttons to Frame:
+        Var.jf1.add(Var.jb3);
+
 
         //Adding all the Labels to the Frame:
         Var.jf1.add(Var.jl1);
