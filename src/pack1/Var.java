@@ -7,10 +7,7 @@ import credits.labelcredits;
 import question1.continuebutton1;
 import question1.labelquestion1;
 import question2.*;
-import question3.continuebutton3;
-import question3.labelquestion3;
-import question3.nobutton3;
-import question3.yesbutton3;
+import question3.*;
 import question4.continuebutton4;
 import question4.labelquestion4;
 import question4.nobutton4;
@@ -47,6 +44,7 @@ public class Var {
     //Label Cords Right/Wrong/Credits Answer:
     public static JLabel jl4 = new rightanswerlabel2();
     public static JLabel jl8 = new labelcredits();
+    public static JLabel jl9 = new wronganswerlabel2();
 
     //Yes Button Cords
     public static int x3 = 50, y3 = 200, width3 = 95, height3 = 30;
@@ -71,6 +69,10 @@ public class Var {
     public static JButton jb9 = new continuebutton3();
     public static JButton jb12 = new continuebutton4();
     public static JButton jb15 = new continuebuttoncredits();
+
+    //Back Button
+    public static JButton jb16 = new backbutton2();
+    public static JButton jb17 = new backbutton3();
 
     public  Var() {
 

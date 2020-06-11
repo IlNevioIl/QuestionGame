@@ -7,22 +7,24 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class nobutton2 extends JButton {
-    public nobutton2() {
+public class backbutton2 extends JButton {
 
-        super("No");
+    public backbutton2() {
+
+        super("Back");
         this.setVisible(false);
-        this.setBounds(Var.x4, Var.y3, Var.width3, Var.height3);
+        this.setBounds(Var.x5, Var.y3, Var.width3, Var.height3);
         this.setForeground( Color.white);
         this.setBackground( Color.black);
         this.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                Var.jl3.setVisible(false);
-                Var.jb4.setVisible(false);
-                Var.jb5.setVisible(false);
-                Var.jl9.setVisible(true);
-                Var.jb16.setVisible(true);
+                Var.jb16.setVisible(false);
+                Var.jl9.setVisible(false);
+                Var.jl4.setVisible(false);
+                Var.jb4.setVisible(true);
+                Var.jb5.setVisible(true);
+                Var.jl3.setVisible(true);
             }
         });
     }

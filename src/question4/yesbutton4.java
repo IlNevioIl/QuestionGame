@@ -18,8 +18,11 @@ public class yesbutton4 extends JButton {
         this.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.exit( 0 );
-
+                Var.jl6.setVisible(false);
+                Var.jb10.setVisible(false);
+                Var.jb11.setVisible(false);
+                Var.jl9.setVisible(true);
+                Var.jb16.setVisible(true);
             }
         });
     }
