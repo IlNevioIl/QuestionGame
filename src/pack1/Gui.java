@@ -56,10 +56,11 @@ public class Gui extends JFrame{
         Var.jf1.add(Var.jl6);
         Var.jf1.add(Var.jl7);
 
-        //Adding all the Right/Wrong/Credits Answers Labels to the Frame:
+        //Adding all the Right/Wrong/Credits/Goodbye Answers Labels to the Frame:
         Var.jf1.add(Var.jl4);
         Var.jf1.add(Var.jl8);
         Var.jf1.add(Var.jl9);
+        Var.jf1.add(Var.jl10);
 
         //Adding Back Buttons to the Frame:
         Var.jf1.add(Var.jb16);

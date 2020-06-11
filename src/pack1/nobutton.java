@@ -14,7 +14,12 @@ public class nobutton extends JButton {
         this.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.exit( 0 );
+                Var.jl1.setVisible(false);
+                Var.jb1.setVisible(false);
+                Var.jb2.setVisible(false);
+                Var.jl10.setVisible(true);
+                Var.jb15.setVisible(true);
+
             }
         });
     }

@@ -41,10 +41,11 @@ public class Var {
     public static JLabel jl6 = new labelquestion4();
     public static JLabel jl7 = new labelquestion5();
 
-    //Label Cords Right/Wrong/Credits Answer:
+    //Label Cords Right/Wrong/Credits/Goodbye Answer:
     public static JLabel jl4 = new rightanswerlabel2();
     public static JLabel jl8 = new labelcredits();
     public static JLabel jl9 = new wronganswerlabel2();
+    public static JLabel jl10 = new goodbyelabel();
 
     //Yes Button Cords
     public static int x3 = 50, y3 = 200, width3 = 95, height3 = 30;
