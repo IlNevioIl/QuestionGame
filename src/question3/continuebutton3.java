@@ -26,6 +26,7 @@ public class continuebutton3 extends JButton {
                 Var.jl6.setVisible(true);
                 Var.jb10.setVisible(true);
                 Var.jb11.setVisible(true);
+                Var.jf1.getContentPane().setBackground( Color.black);
 
                 String soundName = "clicksound.wav";
                 AudioInputStream audioInputStream = null;

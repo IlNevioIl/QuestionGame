@@ -28,6 +28,7 @@ public class backbutton2 extends JButton {
                 Var.jb4.setVisible(true);
                 Var.jb5.setVisible(true);
                 Var.jl3.setVisible(true);
+                Var.jf1.getContentPane().setBackground( Color.black);
 
                 String soundName = "clicksound.wav";
                 AudioInputStream audioInputStream = null;

@@ -23,6 +23,7 @@ public class nobutton2 extends JButton {
                 Var.jb5.setVisible(false);
                 Var.jl9.setVisible(true);
                 Var.jb16.setVisible(true);
+                Var.jf1.getContentPane().setBackground( Color.red);
             }
         });
     }

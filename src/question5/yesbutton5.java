@@ -23,6 +23,7 @@ public class yesbutton5 extends JButton {
                 Var.jb14.setVisible(false);
                 Var.jl9.setVisible(true);
                 Var.jb16.setVisible(true);
+                Var.jf1.getContentPane().setBackground( Color.red);
             }
         });
     }

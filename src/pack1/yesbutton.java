@@ -23,6 +23,7 @@ class yesbutton extends JButton {
                 Var.jb1.setVisible(false);
                 Var.jb2.setVisible(false);
                 Var.jb3.setVisible(true);
+                Var.jf1.getContentPane().setBackground( Color.green);
 
                 String soundName = "clicksound.wav";
                 AudioInputStream audioInputStream = null;
