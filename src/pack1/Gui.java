@@ -64,7 +64,6 @@ public class Gui extends JFrame{
 
         //Adding Back Buttons to the Frame:
         Var.jf1.add(Var.jb16);
-        Var.jf1.add(Var.jb17);
         ;
     }
 

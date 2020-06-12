@@ -73,7 +73,6 @@ public class Var {
 
     //Back Button
     public static JButton jb16 = new backbutton2();
-    public static JButton jb17 = new backbutton3();
 
     public  Var() {
 
